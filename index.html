@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión Académica</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Gestión Académica</h1>
+    <form id="studentForm">
+        <input type="text" id="nombre" placeholder="Nombre" required>
+        <input type="text" id="apellidos" placeholder="Apellidos" required>
+        <input type="text" id="documento" placeholder="Documento" required>
+        <input type="text" id="carrera" placeholder="Carrera" required>
+        <button type="submit">Agregar Estudiante</button>
+    </form>
+    
+    <h2>Lista de Estudiantes</h2>
+    <ul id="studentList"></ul>
+    
+    <script src="script.js"></script>
+</body>
+</html>
